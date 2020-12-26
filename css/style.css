@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: #fff;
+  font-size: 0.96rem;
   /* font-weight: 500; */
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 li {
@@ -21,23 +22,25 @@ li {
   margin: 0 auto;
 }
 
-.head__top, .head__bottom {
-    text-align: center;
+.head__top,
+.head__bottom {
+  text-align: center;
 }
 
 .head__top {
-    padding: 8px 0;
+  padding: 8px 0;
   background: #a52f2d;
 }
 
 .head__top__title {
-    font-size: 3.5rem;
-    font-weight: 300;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 5rem;
 }
 
 .head__text--bold {
   font-weight: 700;
-  font-size: 8rem;
+  font-size: 8.25rem;
 }
 
 .head__text--uppercase {
@@ -45,18 +48,20 @@ li {
 }
 
 .head__bottom {
-    padding: 20px 0;
+  padding: 20px 0;
   background: #3e2d51;
   border-bottom: #2c1f39 solid 6px;
+  line-height: 1.8rem;
 }
 
 .main {
-    padding: 20px 0;
+  padding: 20px 0;
   background: #544c49;
 }
 
 .main__text--bold {
   font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .main__list--bold {
@@ -64,8 +69,20 @@ li {
   font-weight: 700;
 }
 
+.main__list {
+  margin: 20px 0;
+}
+
+.main__list li {
+  margin: 10px 0;
+}
+
+.main__list i {
+  margin-right: 10px;
+}
+
 .footer {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .footer__text {
